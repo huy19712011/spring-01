@@ -12,10 +12,10 @@ package com.example.spring01.games;
 public class GameRunner {
 
 //    private MarioGame game;
-    private SuperContraGame game;
+    private final GamingConsole game;
 
 //    public GameRunner(MarioGame game) {
-    public GameRunner(SuperContraGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
