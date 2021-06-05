@@ -5,10 +5,13 @@
  */
 package com.example.spring01.games;
 
+import org.springframework.stereotype.Component;
+
 /**
  *
  * @author huynq
  */
+@Component
 public class MarioGame implements GamingConsole {
 
     @Override

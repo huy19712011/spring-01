@@ -5,13 +5,18 @@
  */
 package com.example.spring01.games;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 /**
  *
  * @author huynq
  */
+@Component
 public class GameRunner {
 
 //    private MarioGame game;
+    @Autowired
     private final GamingConsole game;
 
 //    public GameRunner(MarioGame game) {
