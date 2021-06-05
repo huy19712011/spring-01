@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.example.spring01.games.GameRunner;
 import com.example.spring01.games.MarioGame;
+import com.example.spring01.games.SuperContraGame;
 
 @SpringBootApplication
 public class Spring01Application {
@@ -13,7 +14,8 @@ public class Spring01Application {
 //		SpringApplication.run(Spring01Application.class, args);
 //                System.out.println("Welcome to Spring Framework");
 
-                MarioGame game = new MarioGame();
+//                MarioGame game = new MarioGame();
+                SuperContraGame game = new SuperContraGame();
 
                 GameRunner runner = new GameRunner(game);
 

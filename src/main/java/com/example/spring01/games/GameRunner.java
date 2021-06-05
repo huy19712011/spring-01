@@ -11,9 +11,11 @@ package com.example.spring01.games;
  */
 public class GameRunner {
 
-    private MarioGame game;
+//    private MarioGame game;
+    private SuperContraGame game;
 
-    public GameRunner(MarioGame game) {
+//    public GameRunner(MarioGame game) {
+    public GameRunner(SuperContraGame game) {
         this.game = game;
     }
 
