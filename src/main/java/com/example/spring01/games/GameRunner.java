@@ -21,6 +21,9 @@ public class GameRunner {
 
 //    public GameRunner(MarioGame game) {
     public GameRunner(GamingConsole game) {
+
+        System.out.println("Using Constructor");
+
         this.game = game;
     }
 
