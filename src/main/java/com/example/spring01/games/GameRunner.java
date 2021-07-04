@@ -17,15 +17,24 @@ public class GameRunner {
 
 //    private MarioGame game;
     @Autowired
-    private final GamingConsole game;
+    private GamingConsole game;
 
-//    public GameRunner(MarioGame game) {
     public GameRunner(GamingConsole game) {
 
         System.out.println("Using Constructor");
 
         this.game = game;
     }
+
+//    // using setter
+//    @Autowired
+//    public void setGame(GamingConsole game) {
+//
+//        System.out.println("Using Setter");
+//
+//        this.game = game;
+//    }
+
 
     public void runGame() {
         game.up();
