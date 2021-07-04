@@ -8,8 +8,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 import com.example.spring01.games.GameRunner;
 import com.example.spring01.games.MarioGame;
 import com.example.spring01.games.SuperContraGame;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+// @ComponentScan("com.example.spring01") // by default
 public class Spring01Application {
 
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class Spring01Application {
 
         GameRunner runner = context.getBean(GameRunner.class);
 
-        
+
 
 
 //        MarioGame game = new MarioGame();
