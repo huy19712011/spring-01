@@ -13,12 +13,12 @@ import org.springframework.stereotype.Component;
  * @author huynq
  */
 @Component
-//@Primary
-public class SuperContraGame implements GamingConsole {
+@Primary
+public class PacManGame implements GamingConsole {
 
     @Override
     public void up() {
-        System.out.println("SuperContraGame Up");
+        System.out.println("PacManGame Up");
     }
 
     @Override
