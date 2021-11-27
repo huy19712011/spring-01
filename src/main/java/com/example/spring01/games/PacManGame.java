@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @author huynq
  */
 @Component
-@Primary
+//@Primary
 public class PacManGame implements GamingConsole {
 
     @Override
